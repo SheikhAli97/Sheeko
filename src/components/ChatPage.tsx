@@ -30,9 +30,10 @@ function ChatPage() {
         rel="stylesheet"
       />
 
-      <main className="chat-main"></main>
-      <Sidebar />
-      <Chatter />
+      <main className="chat-main">
+        <Sidebar />
+        <Chatter />
+      </main>
     </div>
   )
 }
