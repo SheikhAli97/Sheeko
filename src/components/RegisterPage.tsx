@@ -1,7 +1,7 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from 'react'
+import { Link } from 'react-router-dom'
 
-import "../src/css/login.css";
+import '../css/login.css'
 
 export default function RegisterPage() {
   return (
@@ -25,9 +25,9 @@ export default function RegisterPage() {
           <input type="password" name="password" required />
         </p>
         <p>
-          <input type="checkbox" name="checkbox" id="checkbox" required />{" "}
+          <input type="checkbox" name="checkbox" id="checkbox" required />{' '}
           <span>
-            I agree all statements in{" "}
+            I agree all statements in{' '}
             <a
               href="https://google.com"
               target="_blank"
@@ -50,5 +50,5 @@ export default function RegisterPage() {
         </p>
       </footer>
     </div>
-  );
+  )
 }

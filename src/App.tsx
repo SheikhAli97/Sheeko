@@ -1,10 +1,8 @@
-import React from "react";
-import { Link, Route, Routes, Path } from "react-router-dom";
-import ChatPage from "./chatPage";
-import RegisterPage from "./registerPage";
-import LoginPage from "./LoginPage";
-
-import "../src/css/login.css";
+import React from 'react'
+import { Link, Route, Routes, Path } from 'react-router-dom'
+import ChatPage from './components/ChatPage'
+import RegisterPage from './components/RegisterPage'
+import LoginPage from './components/LoginPage'
 
 export default function App() {
   return (
@@ -15,5 +13,5 @@ export default function App() {
         <Route path="register" Component={RegisterPage} />
       </Routes>
     </div>
-  );
+  )
 }

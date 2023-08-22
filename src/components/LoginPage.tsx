@@ -1,5 +1,6 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from 'react'
+import { Link } from 'react-router-dom'
+import '../css/login.css'
 
 function LoginPage() {
   return (
@@ -29,12 +30,12 @@ function LoginPage() {
         <p>
           First time? <Link to="/register">Create an account</Link>.
         </p>
-        <p>
+        {/* <p>
           <Link to="/">Back to Homepage</Link>.
-        </p>
+        </p> */}
       </footer>
     </div>
-  );
+  )
 }
 
-export default LoginPage;
+export default LoginPage
