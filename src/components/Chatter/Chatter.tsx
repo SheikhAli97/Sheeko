@@ -1,5 +1,5 @@
 import '../../css/style.css'
-import imageOne from '../../css/style.css'
+import imageOne from '../../assets/img/chat1.jpg'
 import imageTwo from '../../assets/img/chat2.jpg'
 import imageThree from '../../assets/img/chat5.jpg'
 import imageFour from '../../assets/img/chat4.jpg'

@@ -1,5 +1,5 @@
 import '../../css/style.css'
-import React from 'react'
+
 import imageOne from '../../assets/img/chat1.jpg'
 import imageTwo from '../../assets/img/chat2.jpg'
 import imageThree from '../../assets/img/chat5.jpg'
@@ -10,6 +10,7 @@ import mediaThree from '../../assets/img/media3.jpg'
 import messageOne from '../../assets/img/message1.jpg'
 
 const Sidebar = () => {
+  console.log('Sidebar')
   return (
     <span className="mobile-row">
       <div className="icon-wrapper">
@@ -65,7 +66,7 @@ const Sidebar = () => {
             </div>
             <hr className="icon-wrapper-hr" />
             <div>
-              <img src={mediaThree} alt="" />
+              <img src="" alt="" />
             </div>
           </div>
         </div>
@@ -114,7 +115,7 @@ const Sidebar = () => {
                       <div className="chat-details">
                         <div className="chat-details-left">
                           <div className="caht-image">
-                            <img src={imageThree} alt="chat1" />
+                            <img src="" alt="chat1" />
                           </div>
                           <div className="chat-name">
                             <span>Putri Tanjak</span>
@@ -135,7 +136,7 @@ const Sidebar = () => {
                       <div className="chat-details">
                         <div className="chat-details-left">
                           <div className="caht-image">
-                            <img src={imageTwo} />
+                            <img src="" />
                           </div>
                           <div className="chat-name">
                             <span>Design Team</span>
@@ -158,7 +159,7 @@ const Sidebar = () => {
                       <div className="chat-details">
                         <div className="chat-details-left">
                           <div className="caht-image">
-                            <img src={imageThree} alt="chat1" />
+                            <img src="" alt="chat1" />
                           </div>
                           <div className="chat-name">
                             <span>Ahmed Medi</span>
@@ -193,7 +194,7 @@ const Sidebar = () => {
                       <div className="chat-details">
                         <div className="chat-details-left">
                           <div className="caht-image">
-                            <img src={imageFour} alt="chat1" />
+                            <img src="" alt="chat1" />
                           </div>
                           <div className="chat-name">
                             <span>Claudia Maudi</span>
@@ -215,7 +216,7 @@ const Sidebar = () => {
                       <div className="chat-details">
                         <div className="chat-details-left">
                           <div className="caht-image">
-                            <img src={imageThree} alt="chat1" />
+                            <img src="" alt="chat1" />
                           </div>
                           <div className="chat-name">
                             <span>Novita</span>
@@ -236,7 +237,7 @@ const Sidebar = () => {
                       <div className="chat-details">
                         <div className="chat-details-left">
                           <div className="caht-image">
-                            <img src={imageThree} alt="chat1" />
+                            <img src="" alt="chat1" />
                           </div>
                           <div className="chat-name">
                             <span>Milie Nose</span>
@@ -259,7 +260,7 @@ const Sidebar = () => {
                       <div className="chat-details">
                         <div className="chat-details-left">
                           <div className="caht-image">
-                            <img src={imageTwo} alt="chat1" />
+                            <img src="" alt="chat1" />
                           </div>
                           <div className="chat-name">
                             <span>Ikhsan SD</span>
@@ -288,6 +289,3 @@ const Sidebar = () => {
 }
 
 export default Sidebar
-
-
-
