@@ -1,0 +1,100 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+.form {
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+  width: 37.25rem;
+  height: 33.0625rem;
+  gap: 1rem;
+}
+
+.socials-container {
+  display: flex;
+  width: 28rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-button {
+  display: flex;
+  height: 2.5rem;
+  padding: 0.25rem 3rem;
+  align-items: center;
+  background-color: white;
+  gap: 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.form-input {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 22.8125rem;
+  height: 2.8125rem;
+  border-radius: 0.25rem;
+  border: 1px solid #dce8e3;
+}
+
+.side-image {
+  gap: 2rem;
+  width: 16.625rem;
+  height: 33.0625rem;
+  padding-top: 100px;
+}
+
+.page-content {
+  width: 894px;
+  height: 529px;
+  display: flex;
+  justify-content: center;
+  border-radius: 0.5rem;
+  background: #fff;
+  box-shadow: 0px 4px 20px 0px #2f5a48;
+}
+
+.form-items {
+  padding-top: 1rem;
+}
+
+.login-button {
+  display: flex;
+  width: 7.5rem;
+  height: 2.5rem;
+  padding: 0.75rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  border-radius: 0.25rem;
+  opacity: 0.5;
+  background: #258c60;
+  color: #fff;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: none;
+  border: none;
+}
+
+.inputs-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.sign-up {
+  color: #258c60;
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration: none;
+}

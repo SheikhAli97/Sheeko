@@ -1,16 +1,8 @@
-import { useState } from 'react'
-import '../css/style.css'
-import imageOne from '../assets/img/chat1.jpg'
-import imageTwo from '../assets/img/chat2.jpg'
-import imageThree from '../assets/img/chat3.jpg'
-import imageFour from '../assets/img/chat4.jpg'
-import mediaOne from '../assets/img/media1.jpg'
-import mediaTwo from '../assets/img/media2.jpg'
-import mediaThree from '../assets/img/media3.jpg'
-import messageOne from '../assets/img/message1.jpg'
-import Sidebar from './Chatter/Sidebar'
-import Chat from './Chatter/Chatter'
-import Chatter from './Chatter/Chatter'
+import '../components/Chat/style.css'
+
+import Sidebar from './Chat/Sidebar'
+
+import Chatter from './Chat/Chatter'
 
 function ChatPage() {
   return (

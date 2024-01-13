@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: sans-serif;
 }
 
 /* #scroll-bar-style::-webkit-scrollbar-track {
@@ -39,7 +39,7 @@ ul {
 
 .chat-main {
   display: flex;
-  height: calc(100vh - 100px);
+  height: calc(100vh);
   overflow: hidden;
   max-width: 1380px;
   margin-left: auto;
@@ -210,7 +210,7 @@ form#search-form {
   color: #a9abad;
 }
 
-.caht-image img {
+.chat-image img {
   border-radius: 100%;
   width: 40px;
 }
@@ -652,5 +652,3 @@ span.tab-row {
     grid-template-columns: 1fr 1fr;
   }
 }
-
-

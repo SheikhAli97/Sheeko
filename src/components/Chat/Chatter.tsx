@@ -1,4 +1,4 @@
-import '../../css/style.css'
+import '../Chat/style.css'
 import imageOne from '../../assets/img/chat1.jpg'
 import imageTwo from '../../assets/img/chat2.jpg'
 import imageThree from '../../assets/img/chat5.jpg'
@@ -42,7 +42,7 @@ const Chatter = () => {
                 <span>TODAY</span>
                 <span className="chat-middle-right-hr"></span>
               </div>
-              <div className="caht-middle-content">
+              <div className="chat-middle-content">
                 <div className="chat-middle-left">
                   <ul>
                     <li>
@@ -52,7 +52,7 @@ const Chatter = () => {
                         </div>
                         <div className="message-text">
                           <h4>
-                            Design Team<span>&nbsp&nbsp9:12 AM</span>
+                            Design Team<span> 9:12 AM</span>
                           </h4>
                           <p>Have a great working week!</p>
                         </div>
@@ -65,7 +65,7 @@ const Chatter = () => {
                         </div>
                         <div className="message-text">
                           <h4>
-                            Design Team<span>&nbsp&nbsp9:14 AM</span>
+                            Design Team<span> 9:14 AM</span>
                           </h4>
                           <p>This new landing page, what do you think?</p>
                           <img src={imageOne} alt="" />
@@ -81,7 +81,7 @@ const Chatter = () => {
                       <div className="message-body">
                         <div className="message-text">
                           <h4>
-                            <span>9:30 AM&nbsp&nbsp</span>You
+                            <span> 9:30 AM </span>You
                           </h4>
                           <p>Ok, Thanks</p>
                         </div>

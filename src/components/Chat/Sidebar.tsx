@@ -1,4 +1,4 @@
-import '../../css/style.css'
+import '../Chat/style.css'
 
 import imageOne from '../../assets/img/chat1.jpg'
 import imageTwo from '../../assets/img/chat2.jpg'
@@ -114,8 +114,8 @@ const Sidebar = () => {
                     <a href="#">
                       <div className="chat-details">
                         <div className="chat-details-left">
-                          <div className="caht-image">
-                            <img src="" alt="chat1" />
+                          <div className="chat-image">
+                            <img src={imageOne} alt="chat1" />
                           </div>
                           <div className="chat-name">
                             <span>Putri Tanjak</span>
@@ -135,7 +135,7 @@ const Sidebar = () => {
                     <a href="#">
                       <div className="chat-details">
                         <div className="chat-details-left">
-                          <div className="caht-image">
+                          <div className="chat-image">
                             <img src="" />
                           </div>
                           <div className="chat-name">
@@ -158,8 +158,8 @@ const Sidebar = () => {
                     <a href="#">
                       <div className="chat-details">
                         <div className="chat-details-left">
-                          <div className="caht-image">
-                            <img src="" alt="chat1" />
+                          <div className="chat-image">
+                            <img src={imageTwo} alt="chat1" />
                           </div>
                           <div className="chat-name">
                             <span>Ahmed Medi</span>
@@ -193,8 +193,8 @@ const Sidebar = () => {
                     <a href="#">
                       <div className="chat-details">
                         <div className="chat-details-left">
-                          <div className="caht-image">
-                            <img src="" alt="chat1" />
+                          <div className="chat-image">
+                            <img src={imageThree} alt="chat1" />
                           </div>
                           <div className="chat-name">
                             <span>Claudia Maudi</span>
@@ -215,8 +215,8 @@ const Sidebar = () => {
                     <a href="#">
                       <div className="chat-details">
                         <div className="chat-details-left">
-                          <div className="caht-image">
-                            <img src="" alt="chat1" />
+                          <div className="chat-image">
+                            <img src={imageFour} alt="chat1" />
                           </div>
                           <div className="chat-name">
                             <span>Novita</span>
@@ -236,8 +236,8 @@ const Sidebar = () => {
                     <a href="#">
                       <div className="chat-details">
                         <div className="chat-details-left">
-                          <div className="caht-image">
-                            <img src="" alt="chat1" />
+                          <div className="chat-image">
+                            <img src={imageTwo} alt="chat1" />
                           </div>
                           <div className="chat-name">
                             <span>Milie Nose</span>
@@ -259,8 +259,8 @@ const Sidebar = () => {
                     <a href="#">
                       <div className="chat-details">
                         <div className="chat-details-left">
-                          <div className="caht-image">
-                            <img src="" alt="chat1" />
+                          <div className="chat-image">
+                            <img src={imageOne} alt="chat1" />
                           </div>
                           <div className="chat-name">
                             <span>Ikhsan SD</span>
