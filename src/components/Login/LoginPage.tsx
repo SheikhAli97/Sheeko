@@ -7,7 +7,7 @@ function LoginPage() {
     <div className="wrapper">
       <div className="page-content">
         <div className="side-image">
-          <img src="src/assets/img/rafiki.png" />
+          <img src="src/assets/img/rafiki.svg" height={198.2} width={266} />
         </div>
         <div className="form">
           <h2>Hello there, welcome to Sheeko!</h2>
@@ -31,7 +31,7 @@ function LoginPage() {
               <p className="form-items">
                 <label className="form-items">Password</label>
                 <Link to="/forget-password">
-                  <label className="sign-up"> Forget password? </label>
+                  <label className="text-link"> Forget password? </label>
                 </Link>
                 <br />
                 <input type="password" name="password" className="form-input" />
@@ -117,19 +117,19 @@ function LoginPage() {
               </svg>
             </button>
           </div>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="520"
+            height="2"
+            viewBox="0 0 520 2"
+            fill="none"
+          >
+            <path d="M0 1H520" stroke="#DCE8E3" />
+          </svg>
           <footer>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="520"
-              height="2"
-              viewBox="0 0 520 2"
-              fill="none"
-            >
-              <path d="M0 1H520" stroke="#DCE8E3" />
-            </svg>
             <p>
               Don't have an account?{' '}
-              <Link to="/register" className="sign-up">
+              <Link to="/register" className="text-link">
                 Sign Up
               </Link>
               .
