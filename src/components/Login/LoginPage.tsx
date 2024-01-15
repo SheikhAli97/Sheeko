@@ -38,7 +38,7 @@ function LoginPage() {
               </p>
             </div>
             <p className="form-items">
-              <button className="login-button" id="sub_btn" type="submit">
+              <button className="login-button" id="sub_btn">
                 Login
               </button>
             </p>

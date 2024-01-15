@@ -134,7 +134,7 @@ const Chatter = () => {
               <span>
                 <i className="ri-article-fill"></i>
               </span>
-              <span>DISCRIPTION</span>
+              <span>DESCRIPTION</span>
             </div>
             <p>We're passionate about creating digital product design.</p>
           </div>

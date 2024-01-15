@@ -6,10 +6,7 @@ import Chatter from './Chat/Chatter'
 
 function ChatPage() {
   return (
-    <div>
-      <meta charSet="UTF-8" />
-      <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <div className='wrapper'>
       <title>Chat App Dashboard</title>
       <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -22,10 +19,10 @@ function ChatPage() {
         rel="stylesheet"
       />
 
-      <main className="chat-main">
+      <div className="chat-main">
         <Sidebar />
         <Chatter />
-      </main>
+      </div>
     </div>
   )
 }

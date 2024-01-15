@@ -110,6 +110,15 @@ const Sidebar = () => {
               </div>
               <div className="chat-list">
                 <ul>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="520"
+                    height="2"
+                    viewBox="0 0 520 2"
+                    fill="none"
+                  >
+                    <path d="M0 1H520" stroke="#DCE8E3" />
+                  </svg>
                   <li>
                     <a href="#">
                       <div className="chat-details">
@@ -132,6 +141,15 @@ const Sidebar = () => {
                     </a>
                   </li>
                   <li>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="520"
+                      height="2"
+                      viewBox="0 0 520 2"
+                      fill="none"
+                    >
+                      <path d="M0 1H520" stroke="#DCE8E3" />
+                    </svg>
                     <a href="#">
                       <div className="chat-details">
                         <div className="chat-details-left">
@@ -155,6 +173,15 @@ const Sidebar = () => {
                     </a>
                   </li>
                   <li>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="520"
+                      height="2"
+                      viewBox="0 0 520 2"
+                      fill="none"
+                    >
+                      <path d="M0 1H520" stroke="#DCE8E3" />
+                    </svg>
                     <a href="#">
                       <div className="chat-details">
                         <div className="chat-details-left">
@@ -190,6 +217,15 @@ const Sidebar = () => {
               <div className="chat-list">
                 <ul>
                   <li>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="520"
+                      height="2"
+                      viewBox="0 0 520 2"
+                      fill="none"
+                    >
+                      <path d="M0 1H520" stroke="#DCE8E3" />
+                    </svg>
                     <a href="#">
                       <div className="chat-details">
                         <div className="chat-details-left">
@@ -212,6 +248,15 @@ const Sidebar = () => {
                     </a>
                   </li>
                   <li>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="520"
+                      height="2"
+                      viewBox="0 0 520 2"
+                      fill="none"
+                    >
+                      <path d="M0 1H520" stroke="#DCE8E3" />
+                    </svg>
                     <a href="#">
                       <div className="chat-details">
                         <div className="chat-details-left">
@@ -233,6 +278,15 @@ const Sidebar = () => {
                     </a>
                   </li>
                   <li>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="520"
+                      height="2"
+                      viewBox="0 0 520 2"
+                      fill="none"
+                    >
+                      <path d="M0 1H520" stroke="#DCE8E3" />
+                    </svg>
                     <a href="#">
                       <div className="chat-details">
                         <div className="chat-details-left">
@@ -256,6 +310,15 @@ const Sidebar = () => {
                     </a>
                   </li>
                   <li>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="520"
+                      height="2"
+                      viewBox="0 0 520 2"
+                      fill="none"
+                    >
+                      <path d="M0 1H520" stroke="#DCE8E3" />
+                    </svg>
                     <a href="#">
                       <div className="chat-details">
                         <div className="chat-details-left">

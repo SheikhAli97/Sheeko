@@ -6,12 +6,10 @@ import LoginPage from './components/Login/LoginPage'
 
 export default function App() {
   return (
-    <div className="form-wrapper">
-      <Routes>
-        <Route path="/" Component={LoginPage} />
-        <Route path="chat-page" Component={ChatPage} />
-        <Route path="register" Component={RegisterPage} />
-      </Routes>
-    </div>
+    <Routes>
+      <Route path="/" Component={LoginPage} />
+      <Route path="chat-page" Component={ChatPage} />
+      <Route path="register" Component={RegisterPage} />
+    </Routes>
   )
 }

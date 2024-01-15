@@ -28,38 +28,23 @@ export default function RegisterPage() {
               <p className="form-items">
                 <label>Email address</label>
                 <br />
-                <input
-                  className="form-input"
-                  type="text"
-                  name="first_name"
-                  required
-                />
+                <input className="form-input" type="text" name="first_name" />
               </p>
               <p className="form-items">
                 <label>Password</label>
 
                 <br />
-                <input
-                  className="form-input"
-                  type="password"
-                  name="password"
-                  required
-                />
+                <input className="form-input" type="password" name="password" />
               </p>
               <p className="form-items">
                 <label>Confirm Password</label>
                 <br />
-                <input
-                  className="form-input "
-                  type="text"
-                  name="first_name"
-                  required
-                />
+                <input className="form-input " type="text" name="first_name" />
               </p>
 
               <p className="form-items">
                 <button id="sub_btn" type="submit" className="login-button">
-                  Log in
+                  Sign Up
                 </button>
               </p>
             </div>
