@@ -13,6 +13,7 @@ app.get('/', (req, res) => {
   res.sendFile(path.resolve('dist', 'index.html'))
 })
 
+app.get('/register')
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`)
 })

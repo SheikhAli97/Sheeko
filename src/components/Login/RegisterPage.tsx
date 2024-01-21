@@ -8,6 +8,10 @@ import Facebook from '../../assets/SVG/Facebook'
 import Github from '../../assets/SVG/Github'
 
 export default function RegisterPage() {
+
+
+
+  
   return (
     <div className="wrapper">
       <div className="register-page">

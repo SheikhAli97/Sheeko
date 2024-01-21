@@ -58,7 +58,8 @@ h3 {
 }
 
 .social-button:hover {
-  background-color: #fff3f3;
+  opacity: 1;
+  background-color: #d2cbcb;
 }
 
 .form-input {
